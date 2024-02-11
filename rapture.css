@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: #212529;
+  }
+  nav{
+    background-color: #22263e;
+    padding-bottom: 0.1px;
+  }
+  #logo{
+    display:flex;
+    position: relative;
+    left: 0;
+    width: 400px; 
+  }
+  .contenedor{
+    display: flex;
+    list-style:none;
+  }
+  .contenedor li{
+    flex: 0 0 1; 
+  }
+  .contenedor a {
+    font-family: Georgia; 
+    font-size: 20px;
+    font-style:oblique;
+    letter-spacing: 0.1em;
+    line-height: 32px;
+    text-decoration:none;
+    display:inline-flex;
+    padding: 9px;
+    color: white;
+    user-select: none;
+  }
+  .contenedor a:hover{
+    background-color: #474d70;
+    font-size: x-large;
+    font-stretch: expanded;
+  }
+  .sect {
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+  }
+  #sect1{
+    padding-top: 0px;
+    height:100%;
+    position: relative;
+    display: grid;
+  }
+  #div1{
+    z-index: 1;
+    position:absolute;
+    font-size: xx-large;
+    color:white;
+    letter-spacing: 0.1em;
+    font-family: monospace;
+    display: inline-block;
+    width:50%;
+    padding:20px;
+  }
+  #div2{
+    z-index: 1;
+    font-family: Georgia;
+    position: absolute;
+    display: inline-block;
+    font-style:oblique;
+    font-size: x-large;
+    top:200px;
+    width:50%;
+    padding:20px; 
+    user-select: none;
+  }
+  #div3 a{
+    position:absolute;
+    display: inline-block; 
+    top:300px;
+    font-size: x-large;
+    left:400px;  
+    padding:30px; 
+    font-style:oblique;
+    font-family: Georgia;
+    text-decoration: none;
+    color:white; 
+    user-select: none;
+  }
+  #div3 a:hover{
+    text-decoration: underline;
+  }
+  #sect1 p{
+    position:absolute;
+    color: white; 
+  }
+  #sect1 video{
+    position: relative;
+    height:100%;
+    width:100%;
+    z-index: -1;
+  }
+  #sect2{
+    padding-top: 0px;
+    height:500px;
+    width: 100%;
+    position: relative;
+    display: grid;
+    background-color: #212529;
+  }
+  #new_udaloy{
+    left:20px; 
+    top:20px; 
+    float: right;
+    position: absolute;
+    color:white; 
+    font-family: Georgia;
+    font-size: xxx-large;
+    text-decoration: none;
+    z-index: 1;
+  }
+  #radar{ 
+    position: absolute;
+  }
+  #radar_screen{
+    right:20px;  
+    height:560px; 
+    position: absolute;
+  }
+  #reg{
+    background-color: #22263e;
+    position: absolute;
+    text-align: center;
+    color:white; 
+    bottom: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: larger;
+  }
+  #sect2 ul{
+    list-style:"¤";
+    position:absolute; 
+    top:500px; 
+    left:50px;
+    font-size: x-large;
+    font-family: Georgia;
+    color:whitesmoke;
+  }
+  footer{
+    position: relative; 
+    text-align: center;
+    color:white; 
+    top:250px; 
+    padding:20px; 
+    font-family: Georgia;
+    font-size: larger; 
+  }
+ 

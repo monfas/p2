@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-vector/topographic-map-background_23-2148596457.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707609600&semt=ais");
+  }
+  nav{
+    background-color: #22263e;
+    padding-bottom: 0.1px;
+  }
+  #logo{
+    display:flex;
+    position: relative;
+    left: 0;
+    width: 400px; 
+  }
+  .contenedor{
+    display: flex;
+    list-style:none;
+  }
+  .contenedor li{
+    flex: 0 0 1; 
+  }
+  .contenedor a {
+    font-family: Georgia; 
+    font-size: 20px;
+    font-style:oblique;
+    letter-spacing: 0.1em;
+    line-height: 32px;
+    text-decoration:none;
+    display:inline-flex;
+    padding: 9px;
+    color: white;
+    user-select: none;
+  }
+  .contenedor a:hover{
+    background-color: #474d70;
+    font-size: x-large;
+    font-stretch: expanded;
+  }
+  h1{
+    color:white; 
+    padding: 5px;
+  }
+  #sect1{
+    color:white; 
+  }
+  #sect1 ul{
+    position: absolute; 
+    right: 10px;
+    bottom:1px; 
+    font-size: large; 
+    font-family: Georgia;
+  }
+  #item{
+    width:45%;
+  }
